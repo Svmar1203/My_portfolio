@@ -14,4 +14,35 @@ $(document).ready(function () {
     startDelay: 1000,
     showCursor: false,
   });
+
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    items: 4,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      480: {
+        items: 2,
+      },
+      768: {
+        items: 3,
+      },
+      938: {
+        items: 4,
+      },
+    },
+  });
+
+  $(".chart").easyPieChart({
+    easing: "easeInOut",
+    barColor: "red", // color of used circle
+    trackColor: false, //color of free circle
+    scaleColor: false, // color of decoration
+    lineWidth: 4,
+    size: 152,
+    onStep: function (from, to, percent) {
+      $(this.el).find(".percent").text(Math.round(percent));
+    },
+  });
 });
