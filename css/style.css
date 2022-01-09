@@ -75,7 +75,8 @@ h4 {
   font-size: 22px;
 }
 
-.skillsSection {
+.skillsSection,
+.contactSection {
   background-color: #dfe4ea;
 }
 
