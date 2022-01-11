@@ -1,5 +1,5 @@
 body {
-  background: rgb(216, 215, 213);
+  background: linear-gradient(to top left, #fff, #b9b4a9);
   font-size: 16px;
   color: #333;
   letter-spacing: 1px;
@@ -108,4 +108,58 @@ h4 {
 
 .chart .percent:after {
   content: "%";
+}
+
+.contactButton {
+  color: black;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 2px;
+  font-size: 17px;
+}
+
+.contactButton:hover {
+  text-decoration: none;
+  color: rgb(179, 33, 33);
+  background-color: rgb(223, 195, 158);
+}
+
+.filter a {
+  color: rgb(66, 91, 114);
+  border: 1px solid rgb(21, 40, 56);
+  padding: 18px;
+}
+
+.filter li {
+  display: inline-block;
+  padding: 5px;
+}
+
+#navigation {
+  background-color: #29211c;
+  padding: 25px 10px;
+  z-index: 100;
+  border: 1px solid #fff;
+}
+
+#navigation li {
+  padding: 0 20px;
+}
+
+#navigation li a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background: url(../img/menu.png);
+  background-size: 100%;
+  background-color: #fff;
 }
