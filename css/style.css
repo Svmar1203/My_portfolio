@@ -180,10 +180,27 @@ h4 {
   background-color: rgb(223, 195, 158);
 }
 
+.filter .current {
+  background-color: rgb(252, 83, 83);
+  border-color: rgb(252, 83, 83);
+}
+
+.filter {
+  text-align: center;
+  width: 100%;
+}
+
+.section .heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
 .filter a {
-  color: rgb(66, 91, 114);
-  border: 1px solid rgb(21, 40, 56);
+  color: rgb(223, 232, 240);
+  border: 2px solid rgb(21, 40, 56);
   padding: 18px;
+  text-decoration: none;
 }
 
 .filter li {
@@ -197,6 +214,11 @@ h4 {
   z-index: 100;
   border: 1px solid #fff;
 }
+
+/* .heading h2 {
+  padding-bottom: 40px;
+  width: 100%;
+} */
 
 #navigation li {
   padding: 0 20px;
