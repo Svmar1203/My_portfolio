@@ -52,7 +52,21 @@ $(document).ready(function () {
     }
   });
 
-  $("[data-fancybox]").fancybox();
+  Fancybox.bind('[data-fancybox="gallery"]', {
+    Carousel: {
+      on: {
+        change: (that) => {
+          mainCarousel.slideTo(mainCarousel.findPageForSlide(that.page), {
+            friction: 0,
+          });
+        },
+      },
+    },
+  });
+
+  Fancybox.bind("[data-fancybox]", {
+    infinite: false,
+  });
 
   $(".items").isotope({
     filter: "*",
