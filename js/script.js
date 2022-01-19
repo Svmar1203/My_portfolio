@@ -61,7 +61,7 @@ $(document).ready(function () {
     },
   });
 
-  Fancybox.bind('[data-fancybox="gallery"]', {
+  fancybox.bind('[data-fancybox="gallery"]', {
     caption: function (fancybox, carousel, slide) {
       return (
         `${slide.index + 1} / ${carousel.slides.length} <br />` + slide.caption

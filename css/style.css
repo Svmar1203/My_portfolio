@@ -266,3 +266,28 @@ a[data-fancybox] img {
 .fancybox__caption {
   text-align: center;
 }
+
+.items .icons {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  margin: -20px auto;
+  text-align: center;
+  z-index: 3;
+}
+
+.items .icons i {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.items a {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  position: relative;
+  display: inline-block;
+}
