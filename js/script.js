@@ -53,27 +53,10 @@ $(document).ready(function () {
   });
 
   Fancybox.bind('[data-fancybox="gallery"]', {
-    Carousel: {
-      on: {
-        change: (that) => {
-          mainCarousel.slideTo(mainCarousel.findPageForSlide(that.page), {
-            friction: 0,
-          });
-        },
-      },
-    },
-  });
-
-  Fancybox.bind("[data-fancybox]", {
-    infinite: false,
-  });
-
-  $(".items").isotope({
-    filter: "*",
-    animationOptions: {
-      duration: 1500,
-      easing: "linear",
-      queue: false,
+    caption: function (fancybox, carousel, slide) {
+      return (
+        `${slide.index + 1} / ${carousel.slides.length} <br />` + slide.caption
+      );
     },
   });
 });
