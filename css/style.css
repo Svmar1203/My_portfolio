@@ -273,7 +273,7 @@ a[data-fancybox] img {
   height: 40px;
   left: 50%;
   top: 50%;
-  margin: -20px auto;
+  margin: -20px auto 0 -47px;
   text-align: center;
   z-index: 3;
 }
@@ -287,7 +287,7 @@ a[data-fancybox] img {
 .items a {
   width: 40px;
   height: 40px;
-  background-color: red;
+  background-color: #29211c;
   position: relative;
   display: inline-block;
 }
