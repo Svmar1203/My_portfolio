@@ -197,7 +197,7 @@ h4 {
 }
 
 .filter a {
-  color: rgb(223, 232, 240);
+  color: rgb(169 173 176);
   border: 2px solid rgb(21, 40, 56);
   padding: 18px;
   text-decoration: none;
@@ -251,6 +251,13 @@ h4 {
 
 .items li img {
   width: 100%;
+
+  /*img zum-in zum-out*/
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
 }
 
 .items .item {
@@ -290,6 +297,13 @@ a[data-fancybox] img {
   background-color: #29211c;
   position: relative;
   display: inline-block;
+
+  /*button zim-in zim-out*/
+  -webkit-transition: all 0.2s linear, 0.4s;
+  -moz-transition: all 0.2s linear, 0.4s;
+  -o-transition: all 0.2s linear, 0.4s;
+  -ms-transition: all 0.2s linear, 0.4s;
+  -transition: all 0.2s linear, 0.4s;
 }
 
 .items .imageOverlay {
@@ -301,6 +315,7 @@ a[data-fancybox] img {
   top: 0px;
   opacity: 0;
 
+  /*button transition*/
   -webkit-transition: all 0.2s linear, 1s;
   -moz-transition: all 0.2s linear, 1s;
   -o-transition: all 0.2s linear, 1s;
@@ -310,4 +325,34 @@ a[data-fancybox] img {
 
 .items .item:hover .imageOverlay {
   opacity: 1;
+}
+
+.items .openButton {
+  float: left;
+  left: -200px;
+}
+
+.items .projectLink {
+  float: right;
+  right: -200px;
+}
+
+.items .item:hover .openButton {
+  left: 0px;
+}
+
+.items .item:hover .projectLink {
+  right: 0px;
+}
+
+.items .item:hover img {
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -transform: scale(1.05, 1.05);
+}
+
+.items {
+  padding: 0;
 }
