@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: linear-gradient(to top left, #fff, #b9b4a9);
   font-size: 16px;
@@ -355,4 +361,14 @@ a[data-fancybox] img {
 
 .items {
   padding: 0;
+}
+
+.copyrightSection {
+  color: #000;
+  padding: 30px 5px;
+  max-width: 100%;
+}
+
+.copyrightSection p {
+  margin: 0;
 }
