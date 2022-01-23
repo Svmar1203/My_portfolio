@@ -372,3 +372,8 @@ a[data-fancybox] img {
 .copyrightSection p {
   margin: 0;
 }
+
+.navbar-toggler-icon {
+  background: url(../img/icons/navbar-icon3.png);
+  background-size: 100%;
+}
