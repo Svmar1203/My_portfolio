@@ -219,6 +219,7 @@ h4 {
   padding: 25px 10px;
   z-index: 100;
   border: 1px solid #fff;
+  width: 100%;
 }
 
 /* .heading h2 {
@@ -376,4 +377,9 @@ a[data-fancybox] img {
 .navbar-toggler-icon {
   background: url(../img/icons/navbar-icon3.png);
   background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
 }
