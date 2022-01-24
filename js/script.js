@@ -1,5 +1,9 @@
 "use strict";
 
+$(window).on("load", function () {
+  $(".loader").fadeOut(500);
+}); // gif loaded
+
 $(document).ready(function () {
   $("#slides").superslides({
     animation: "fade",
@@ -83,7 +87,8 @@ $(document).ready(function () {
     e.preventDefault();
 
     var targetElement = $(this).attr("href");
-    var targetPosition = $(targetElement);
+    var targetPosition = $(targetElement).offset().top;
+    $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
   });
 
   const nav = $("#navigation");
