@@ -65,6 +65,8 @@ $(document).ready(function () {
     }
   });
 
+  $(".counter").countUp(200);
+
   $("#filters a").click(function () {
     $("#filters .current").removeClass("current");
     $(this).addClass("current");
@@ -105,12 +107,4 @@ $(document).ready(function () {
       body.removeClass("fixedNav");
     }
   }
-
-  fancybox.bind('[data-fancybox="gallery"]', {
-    caption: function (fancybox, carousel, slide) {
-      return (
-        `${slide.index + 1} / ${carousel.slides.length} <br />` + slide.caption
-      );
-    },
-  });
 });
