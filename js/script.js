@@ -65,8 +65,6 @@ $(document).ready(function () {
     }
   });
 
-  $(".counter").countUp(200);
-
   $("#filters a").click(function () {
     $("#filters .current").removeClass("current");
     $(this).addClass("current");
