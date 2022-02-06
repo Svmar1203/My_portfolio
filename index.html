@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    
+  </head>
+  <body>
+    <div class="loader">
+      <div class="inner"></div>
+    </div>
+    <div id="slides">
+      <div class="overlay"></div>
+
+      <div class="slides-container">
+        <img src="img/slider1.jpeg" alt="" />
+        <img src="img/slider2.jpeg" alt="" />
+        <img src="img/slider3.jpg" alt="" />
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">SVETLANA MARTSEVA</p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      
+        <a class="navbar-brand" href="#">Svetlana Martseva</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+       <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stats">Stats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio" tabindex="-1" aria-disabled="true">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+        
+
+
+    </nav>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="aboutImage" src="img/svetlana.jpg" />
+          </div>
+          <div class="col-md-7">
+            <h4>My name is Svetlana Martseva</h4>
+            <p class="about-my">
+              Hi there! I'm Svetlana Martseva from Tallinn, Estonia. Currently I
+             have not so many years experience creating software, but I create
+              website for both myself, and for clients. I design and code simple things, and I love what I do. I'm very curious, and perpetually working on improving my chops. I have experience
+              programming in many different languages such as JavaScript,
+              Python, C++.
+            </p>
+            <p class="about-my">
+              I graduated from university in Estonia. Also graduated from IBM:
+              Full Stack Cloud Application Development #MicroBachelors and such
+              courses as CS50's Introduction to Computer Science, HTML5 Coding
+              Essentials and Best Practices, HTML5 and CSS Fundamentals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>A representation of my proficiency in each skill</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="67">
+                <span class="percent">67</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="80">
+                <span class="percent">80</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>HTML</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="76">
+                <!-- if change percent in chart, change span -->
+                <span class="percent">76</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>CSS</h4>
+              <p>I have verified certificate in CSS Fundamentals offered by World Wide Web Consortium</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="30">
+                <!-- if change percent in chart, change span -->
+                <span class="percent">30</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>PYTHON</h4>
+              <p>I have successfully completed a course of study offered by IBM in Python Basics for Data Science</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="30">
+                <!-- if change percent in chart, change span -->
+                <span class="percent">30</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>PYTHON</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="stats" class="statsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-folder-open"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">15</h2>
+                  <h3>Certificate</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-laptop-code"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">23</h2>
+                  <h3>Project</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-link"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">5</h2>
+                  <h3>Link</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-calendar-day"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">3</h2>
+                  <h3>Years of Study</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">Like what you see?</p>
+        <h2>I'd love to hear from you!</h2>
+
+        <a href="mailTo:svetlana.eest@gmail.com" class="contactButton"
+          >GET IN TOUCH!</a
+        >
+      </div>
+    </div>
+
+    
+    
+    <div id="portfolio" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>PORTFOLIO</h2>
+          </div>
+
+
+<!--Class in li(sertificate, me, websites)-->
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".sertificate">Sertificate</a></li>
+              <li><a href="" data-filter=".me">Me</a></li>
+              <li><a href="#" data-filter=".websites">Websites</a></li>
+            </ul>
+          </div>
+
+          <div class="itemsContainer">
+            <ul class="items">
+              <li onclick=""  class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th21 (2).jpg" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/me-me.jpg"
+                      title="Me"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/svetlana-martseva-a34aa3230/"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+    
+                </div>
+              </li>
+
+              <li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th11.jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/me7.jpg"
+                      title="me"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://instagram.com/svmar1203"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th7.jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/certificate/sert1.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/7dd6e77ec3fa4a3f9db8500f51797af5"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th2.jpg" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/certificate/sert2.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/f034445cb9f24441ab270b0497b2f53b"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th12.jpg" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/certificate/sert3.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/05955984ce13490ea77d3f61b128eeba"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th6.jpg" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/certificate/sert4.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/7b8e5c0a307c4556aa20cead6be537f8"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th8.jpg" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/certificate/sert5.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/9aaa6dcbf45340718b95448f531b497c"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th3.jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/certificate/sert6.png"
+                     title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/c7a4e082597f4e13807455d07c579dbb"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th25.jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/certificate/w3c-bestPractices.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/03c8fa3503df46ba9aeb48cd0a0813c7"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th9.jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/certificate/sert7.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/1e3cdf7b4540440fbaa903bdcd6b56c3"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th32.jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/certificate/w3c.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/3725d29c46044cfcb9dbfd364aa8a368"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th33.jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/certificate/sert8.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/e7b52f23509e4b13b3b8d08aa965f9bd"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th13 (2).jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/thumbnails/imgg2.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://svmar1203.github.io/mq-diploma/"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="sertificate col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th34 (1).jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/certificate/english.png"
+                      title="Certificate"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/9c94abc3790b4be5b1b8368cd78bd841"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+               <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th34 (2).jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/certificate/modal.png"
+                      title="project"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://courses.edx.org/certificates/e7b52f23509e4b13b3b8d08aa965f9bd"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/thumbnails/th14.jpg" alt="" />
+                  <div class="icons">
+                    <!-- add description to TITLE!!  View image-->
+                    <a
+                      href="img/thumbnails/th24 (2).jpg"
+                      title="Simple-Interest-Calculator"
+                      class="openButton"
+                      data-fancybox="gallery"
+                      data-caption="This is my certificate"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://svmar1203.github.io/vftvk-Simple-Interest-Calculator/"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyrightSection">
+          <div class="col-md-12 text-center">
+            <p>&copy; Copyright Svetlana Martseva 2022</p>
+          </div>
+        </div>
+
+
+        
+
+
+ 
+
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+     <script src="js/typed.min.js"></script>
+    <!-- <script src="js/countUp-jquery.js"></script> -->
+    <!-- <script src="js/countUp.js"></script> -->
+    <!-- <script src="js/countUp.min.js"></script> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
